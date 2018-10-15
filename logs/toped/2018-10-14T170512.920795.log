@@ -1,0 +1,30 @@
+2018-10-14 17:05:15 [scrapy] DEBUG: Redirecting (301) to <GET https://www.tokopedia.com/robots.txt> from <GET https://tokopedia.com/robots.txt>
+2018-10-14 17:05:18 [scrapy] DEBUG: Crawled (200) <GET https://www.tokopedia.com/robots.txt> (referer: None)
+2018-10-14 17:05:18 [scrapy] DEBUG: Redirecting (301) to <GET https://www.tokopedia.com/vistar518/asus-zenbook-ux331ual-eg032t-i5-8250u-8gb-256gb-ssd-13-ips-fhd-blue> from <GET https://tokopedia.com/vistar518/asus-zenbook-ux331ual-eg032t-i5-8250u-8gb-256gb-ssd-13-ips-fhd-blue>
+2018-10-14 17:05:18 [scrapy] DEBUG: Crawled (200) <GET https://www.tokopedia.com/robots.txt> (referer: None)
+2018-10-14 17:05:20 [scrapy] DEBUG: Crawled (200) <GET https://www.tokopedia.com/vistar518/asus-zenbook-ux331ual-eg032t-i5-8250u-8gb-256gb-ssd-13-ips-fhd-blue> (referer: None)
+2018-10-14 17:05:20 [scrapy] DEBUG: Scraped from <200 https://www.tokopedia.com/vistar518/asus-zenbook-ux331ual-eg032t-i5-8250u-8gb-256gb-ssd-13-ips-fhd-blue>
+{'price': [u'13500000'], 'description': [u'<div id="info" class="tab-pane fade product-summary__content in active" itemprop="description">\n                                Processor<br>Intel" Core\' i5 8250U Processor,1.6-4.0 GHZ<br>Operating System<br>Windows 10 Home<br>Chipset<br>Integrated Intel" CPU<br>Memory<br>8 GB Onboard Memory<br>Display<br>13.3" (16:9) LED backlit FHD (1920x1080) 60Hz Anti-Glare Panel with 72% NTSC with 178\'\' wide-viewing angle display<br>Support ASUS Splendid Technology<br>With WideView Technology<br>Graphic<br>Integrated Intel UHD Graphics 620<br>Storage<br>Solid State Drives:<br>256GB SATA3 M.2 SSD <br>Solid State Drives:<br>Keyboard<br>Illuminated Chiclet Keyboard<br>WebCam<br>VGA Web Camera<br>Networking<br>Wi-Fi<br>Integrated 802.11 AC (2x2) <br>Bluetooth<br>Built-in Bluetooth V4.2<br>Interface<br>2 x Type A USB3.1 (GEN1) <br>1 x Type C USB3.0 (USB3.1 GEN1) <br>1 x HDMI, Support HDMI 1.4 <br>1 x micro SD card<br>1 x audio jack COMBO<br>Audio<br>Built-in Stereo 1 W Speakers And Array Microphone<br>Support Windows 10 Cortana with Voice<br>ASUS SonicMaster Technology<br>Harman kardon<br>Battery<br>50 Whrs Polymer Battery<br>Power Adapter<br>Plug Type :4 (mm)<br>Output :<br>19 V DC, 2.37 A, 45 W<br>Input :<br>100 -240 V AC, 50/60 Hz universal<br>3/ 2 pin compact power supply system<br>Dimensions<br>310 x 216 x 13.9 mm (WxDxH)<br>Weight<br>1.1 kg with BatterY<br><br>Garansi\t<br>2 Tahun dari ASUS INDONESIA\n                            </div>'], 'image': [u'https://ecs7.tokopedia.net/img/cache/700/product-1/2018/7/2/4979529/4979529_1a2370b7-b294-41a1-ad10-c71ce348d74c_700_700.png', u'https://ecs7.tokopedia.net/img/cache/700/product-1/2018/7/2/4979529/4979529_dc7f5d85-d558-48f3-ae51-32fbdb74cc06_700_325.jpg', u'https://ecs7.tokopedia.net/img/cache/700/product-1/2018/7/2/4979529/4979529_3e0ab279-8023-427a-9784-5f1ce4284453_700_426.png', u'https://ecs7.tokopedia.net/img/cache/700/product-1/2018/7/2/4979529/4979529_b4532b63-0e63-4821-b88b-cdb648ac6999_700_687.jpg', u'https://ecs7.tokopedia.net/img/cache/700/product-1/2018/8/22/4979529/4979529_0b8da417-5f28-446e-b225-a18b4f81bcc7_1000_527.jpg'], 'title': [u'ASUS Zenbook UX331UAL-EG032T i5 8250U-8GB-256GB SSD-13"IPS FHD - BLUE']}
+2018-10-14 17:05:20 [scrapy] INFO: Closing spider (finished)
+2018-10-14 17:05:20 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 1256,
+ 'downloader/request_count': 5,
+ 'downloader/request_method_count/GET': 5,
+ 'downloader/response_bytes': 31396,
+ 'downloader/response_count': 5,
+ 'downloader/response_status_count/200': 3,
+ 'downloader/response_status_count/301': 2,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 10, 14, 10, 5, 20, 365648),
+ 'item_scraped_count': 1,
+ 'log_count/DEBUG': 6,
+ 'log_count/INFO': 6,
+ 'memusage/max': 83091456,
+ 'memusage/startup': 83091456,
+ 'response_received_count': 3,
+ 'scheduler/dequeued': 2,
+ 'scheduler/dequeued/memory': 2,
+ 'scheduler/enqueued': 2,
+ 'scheduler/enqueued/memory': 2,
+ 'start_time': datetime.datetime(2018, 10, 14, 10, 5, 12, 943844)}
+2018-10-14 17:05:20 [scrapy] INFO: Spider closed (finished)

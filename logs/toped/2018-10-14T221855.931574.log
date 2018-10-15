@@ -1,0 +1,55 @@
+2018-10-14 22:18:56 [scrapy] DEBUG: Retrying <GET https://tokopedia.com/robots.txt> (failed 1 times): DNS lookup failed: no results for hostname lookup: tokopedia.com.
+2018-10-14 22:18:56 [scrapy] DEBUG: Retrying <GET https://tokopedia.com/robots.txt> (failed 2 times): DNS lookup failed: no results for hostname lookup: tokopedia.com.
+2018-10-14 22:18:56 [scrapy] DEBUG: Gave up retrying <GET https://tokopedia.com/robots.txt> (failed 3 times): DNS lookup failed: no results for hostname lookup: tokopedia.com.
+2018-10-14 22:18:56 [scrapy] ERROR: Error downloading <GET https://tokopedia.com/robots.txt>: DNS lookup failed: no results for hostname lookup: tokopedia.com.
+Traceback (most recent call last):
+  File "/anaconda2/lib/python2.7/site-packages/twisted/internet/defer.py", line 1384, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "/anaconda2/lib/python2.7/site-packages/twisted/python/failure.py", line 393, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "/anaconda2/lib/python2.7/site-packages/scrapy/core/downloader/middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+  File "/anaconda2/lib/python2.7/site-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/anaconda2/lib/python2.7/site-packages/twisted/internet/endpoints.py", line 954, in startConnectionAttempts
+    "no results for hostname lookup: {}".format(self._hostStr)
+DNSLookupError: DNS lookup failed: no results for hostname lookup: tokopedia.com.
+2018-10-14 22:18:56 [scrapy] DEBUG: Retrying <GET https://tokopedia.com/vistar518/asus-zenbook-ux331ual-eg032t-i5-8250u-8gb-256gb-ssd-13-ips-fhd-blue> (failed 1 times): DNS lookup failed: no results for hostname lookup: tokopedia.com.
+2018-10-14 22:18:56 [scrapy] DEBUG: Retrying <GET https://tokopedia.com/vistar518/asus-zenbook-ux331ual-eg032t-i5-8250u-8gb-256gb-ssd-13-ips-fhd-blue> (failed 2 times): DNS lookup failed: no results for hostname lookup: tokopedia.com.
+2018-10-14 22:18:56 [scrapy] DEBUG: Gave up retrying <GET https://tokopedia.com/vistar518/asus-zenbook-ux331ual-eg032t-i5-8250u-8gb-256gb-ssd-13-ips-fhd-blue> (failed 3 times): DNS lookup failed: no results for hostname lookup: tokopedia.com.
+2018-10-14 22:18:56 [scrapy] ERROR: Error downloading <GET https://tokopedia.com/vistar518/asus-zenbook-ux331ual-eg032t-i5-8250u-8gb-256gb-ssd-13-ips-fhd-blue>
+Traceback (most recent call last):
+  File "/anaconda2/lib/python2.7/site-packages/twisted/internet/defer.py", line 1384, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "/anaconda2/lib/python2.7/site-packages/twisted/python/failure.py", line 393, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "/anaconda2/lib/python2.7/site-packages/scrapy/core/downloader/middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+  File "/anaconda2/lib/python2.7/site-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/anaconda2/lib/python2.7/site-packages/twisted/internet/endpoints.py", line 954, in startConnectionAttempts
+    "no results for hostname lookup: {}".format(self._hostStr)
+DNSLookupError: DNS lookup failed: no results for hostname lookup: tokopedia.com.
+2018-10-14 22:18:56 [scrapy] INFO: Closing spider (finished)
+2018-10-14 22:18:56 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/exception_count': 6,
+ 'downloader/exception_type_count/twisted.internet.error.DNSLookupError': 6,
+ 'downloader/request_bytes': 1533,
+ 'downloader/request_count': 6,
+ 'downloader/request_method_count/GET': 6,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 10, 14, 15, 18, 56, 365268),
+ 'log_count/DEBUG': 6,
+ 'log_count/ERROR': 2,
+ 'log_count/INFO': 6,
+ 'memusage/max': 83877888,
+ 'memusage/startup': 83877888,
+ 'retry/count': 4,
+ 'retry/max_reached': 2,
+ 'retry/reason_count/twisted.internet.error.DNSLookupError': 4,
+ 'scheduler/dequeued': 3,
+ 'scheduler/dequeued/memory': 3,
+ 'scheduler/enqueued': 3,
+ 'scheduler/enqueued/memory': 3,
+ 'start_time': datetime.datetime(2018, 10, 14, 15, 18, 55, 971307)}
+2018-10-14 22:18:56 [scrapy] INFO: Spider closed (finished)
