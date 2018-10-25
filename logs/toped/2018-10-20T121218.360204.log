@@ -1,0 +1,26 @@
+2018-10-20 12:12:18 [scrapy] DEBUG: Crawled (200) <GET https://www.tokopedia.com/robots.txt> (referer: None)
+2018-10-20 12:12:18 [scrapy] DEBUG: Crawled (200) <GET https://www.tokopedia.com/jbsnewyork/jbs-new-york-set-kuas-makeup-paket-bambu-brush-egg-telur?trkid=f=P0Cb0_src=sprint-sale_page=1_ob=17_catid=2233> (referer: None)
+2018-10-20 12:12:18 [scrapy] DEBUG: Scraped from <200 https://www.tokopedia.com/jbsnewyork/jbs-new-york-set-kuas-makeup-paket-bambu-brush-egg-telur?trkid=f=P0Cb0_src=sprint-sale_page=1_ob=17_catid=2233>
+{'price': [u'61650'], 'description': [u'<div id="info" class="tab-pane fade product-summary__content in active" itemprop="description">\n                                Isi paket sesuai foto<br>Kuas set isi 11pcs<br>spons beauty ( warna random )<br>brush egg ( warna random )<br><br>Reseller price<br>12, -5%,<br>24-7.5% <br>50-10%<br>100-12.5%<br>150-15%<br>(Kuas boleh campur, tpi hrus kuas yg set2), tidak berlaku untuk kuas yg satuan.<br>Whatsapp 087788791499<br><br>*warna beauty blender dan brush egg random ya *<br>Paket isi : - Cosmetic Make Up Brush 11 Set + Pouch / Bamboo brush  normal price : idr 100.000<br>- brush egg  Untuk membersihkan kuas makeup /brush  normal price : 25.000<br>- Beauty blender tear drop/gourd shape  normal price : idr 21.000<br>Kuas terdiri Dari : <br>- Blush On Brush<br>- Foundation Brush<br>- Fluffy Countour Brush<br>- Large Eye Shadow Brush<br>- Medium Eye Shadow Brush<br>- Eye liner gel Brush<br>- Nose Countour Brush<br>- Eyebrow brush<br>- Powder brush<br>- Mini foundation brush<br>- Flat Powder brush.<br><br>sekarang promo harga jadi 80rbu saja.\n                            </div>'], 'image': [u'https://ecs7.tokopedia.net/img/cache/700/product-1/2018/5/28/32378091/32378091_0f18f11d-3d4f-4997-a986-4a4b2a955da9_850_850.jpeg', u'https://ecs7.tokopedia.net/img/cache/700/product-1/2018/3/14/2985878/2985878_194996aa-5d1d-44d6-bc6d-e609a8507f81_1080_1080.jpeg', u'https://ecs7.tokopedia.net/img/cache/700/product-1/2018/4/25/2985878/2985878_c2f39750-81c4-4fbb-91c3-ca6ff8041077_846_874.jpg', u'https://ecs7.tokopedia.net/img/cache/700/product-1/2018/5/28/32378091/32378091_8521c02f-18c8-4375-90ba-9c43bf3f2f10_1024_1024.jpg'], 'title': [u'JBS New York Set Kuas Makeup ( paket bambu brush egg telur )']}
+2018-10-20 12:12:18 [scrapy] INFO: Closing spider (finished)
+2018-10-20 12:12:18 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 563,
+ 'downloader/request_count': 2,
+ 'downloader/request_method_count/GET': 2,
+ 'downloader/response_bytes': 29745,
+ 'downloader/response_count': 2,
+ 'downloader/response_status_count/200': 2,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 10, 20, 5, 12, 18, 907526),
+ 'item_scraped_count': 1,
+ 'log_count/DEBUG': 3,
+ 'log_count/INFO': 6,
+ 'memusage/max': 54861824,
+ 'memusage/startup': 54861824,
+ 'response_received_count': 2,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2018, 10, 20, 5, 12, 18, 405509)}
+2018-10-20 12:12:18 [scrapy] INFO: Spider closed (finished)

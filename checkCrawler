@@ -1,0 +1,9 @@
+#!/bin/bash
+service='scrapyrt -p 3001 -i angsur.id'
+if (( $(ps -ef | grep -v grep | grep 'scrapyrt' | wc -l) > 0 ))
+then
+echo "$service is running!!!"
+else
+echo "do!"
+$service
+fi
